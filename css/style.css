@@ -1,4 +1,14 @@
+html, body, #home{
+    height: 100%;
+}
 
 body{
     background: black;
+}
+
+.capa {
+    text-align: center;
+}
+.logo {
+    border-radius: 5px;
 }
