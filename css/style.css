@@ -10,6 +10,15 @@ body{
     text-align: center;
 }
 .logo {
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#servicos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.albuns {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
