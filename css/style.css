@@ -18,6 +18,13 @@ footer ul li{
     float: right;
 }
 
+h2 {
+    font-size: 3em;
+}
+p {
+    font-size: 20px;
+}
+
 .capa {
     text-align: center;
 }
