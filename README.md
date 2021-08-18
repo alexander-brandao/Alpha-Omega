@@ -4,7 +4,8 @@
 
 
 My personal work website:
-To view: https://alexander-brandao.github.io/Alpha-Omega/
+
+## To view: https://alexander-brandao.github.io/Alpha-Omega/
 ## Built only with: 
 - HTML5
 - CSS3
