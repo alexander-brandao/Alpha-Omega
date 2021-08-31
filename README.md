@@ -5,6 +5,11 @@
 
 My personal work website.
 
+## Built only with: 
+- ✨ HTML5 ✨
+- ✨ CSS3 ✨
+- ✨ Magic ✨
+
 ## View: https://alexander-brandao.github.io/Alpha-Omega/
 
 ## Mobile:
@@ -16,8 +21,3 @@ My personal work website.
 <p align= "center">
   <img width="900" height="500"src="https://raw.githubusercontent.com/alexander-brandao/Alpha-Omega/master/img/desktop.png">
 </p>
-
-## Built only with: 
-- ✨ HTML5 ✨
-- ✨ CSS3 ✨
-- ✨ Magic ✨
