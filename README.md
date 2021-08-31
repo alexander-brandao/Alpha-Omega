@@ -7,7 +7,9 @@ My personal work website.
 
 ## View: https://alexander-brandao.github.io/Alpha-Omega/
 
-![Alt text](Alpha-Omega/img/mobile.png?raw=true "Optional Title")
+<p align= "center">
+  <img width="450" height="400"src="Alpha-Omega/img/mobile.png">
+</p>
 
 ## Built only with: 
 - ✨ HTML5 ✨
