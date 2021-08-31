@@ -7,10 +7,15 @@ My personal work website.
 
 ## View: https://alexander-brandao.github.io/Alpha-Omega/
 
+## Mobile:
 <p align= "center">
   <img width="500" height="600"src="https://raw.githubusercontent.com/alexander-brandao/Alpha-Omega/master/img/mobile.png">
 </p>
-501 × 595
+
+## Desktop:
+<p align= "center">
+  <img width="900" height="500"src="https://raw.githubusercontent.com/alexander-brandao/Alpha-Omega/master/img/desktop.png">
+</p>
 
 ## Built only with: 
 - ✨ HTML5 ✨
