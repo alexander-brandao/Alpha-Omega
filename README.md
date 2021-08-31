@@ -7,7 +7,7 @@ My personal work website.
 
 ## View: https://alexander-brandao.github.io/Alpha-Omega/
 
-![Alt text](/relative/path/to/Alpha-Omega/img/mobile.png
+![Alt text](/relative/path/to/mobile.png
 ?raw=true "Optional Title")
 
 ## Built only with: 
