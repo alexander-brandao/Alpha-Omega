@@ -5,9 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -19,7 +18,7 @@
         <!-- Estilo customizado -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <title>Alpha & Omega</title>
+        <title>Alexander</title>
         <link rel="icon" href="img/logoNav.svg">
   </head>
 
@@ -27,34 +26,36 @@
 
         <header> <!-- inicio Cabecalho -->
             
-            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                 <div class="container">
                     
                     <a href="index.html" class="navbar-brand" >
                         <img src="img/logoNav.svg" width="142" height="66">
                     </a>
 
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <button class="navbar-toggler"type="button" data-bs-toggle="collapse"  data-bs-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars text-black" ></i>
                     </button>
+
+                  
 
                     <div class="collapse navbar-collapse" id="nav-principal">
                         <ul class="navbar-nav ml-auto">
                             
                             <li class="nav-item">
-                                <a href="#servicos" class="nav-link">
+                                <a href="#servicos" class="nav-link active" aria-current="page">
                                     About  
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="https://github.com/alexander-brandao" class="nav-link" target="_blank">
+                                <a href="https://github.com/alexander-brandao" class="nav-link active" target="_blank" aria-current="page">
                                     Projects  
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="https://api.whatsapp.com/send?phone=5561991091770" class="nav-link" target="_blank">
+                                <a href="https://api.whatsapp.com/send?phone=5561991091770" class="nav-link active" target="_blank" aria-current="page">
                                     Contact  
                                 </a>
                             </li>
@@ -64,25 +65,28 @@
 
                 </div>
             </nav>
+            
            
         </header><!--fim cabecalho -->
 
-        <section id="home" class="d-flex"><!--inicio pagina inicial-->
+        <section id="home" class="d-flex bg-dark"><!--inicio pagina inicial-->
             <div class="container align-self-center">
                 <div class="row">
                     <div class="col-md-12 capa">
+
+                        <h3 class="text-light">ΑLEXANDER BRANDAΩ</h3>
                         
-                        <h1 class="text-warning">ΑLPHA & ΩMEGA</h1>
+                        <h1 class="text-light">Software Engineer</h1>
                        
-                        <h2 class="text-warning">Technology Services</h2>
+                        <h2 class="text-light">Let's work together?</h2>
                         
-                        <a href="https://github.com/alexander-brandao" class="btn btn-warning btn-lg" target="_blank">
-                            Projetos
+                        <a href="https://github.com/alexander-brandao" class="btn btn-light btn-lg" target="_blank">
+                            Projects
                             <img src="img/github.svg " width="24" height="24" >
 
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=5561991091770" class="btn btn-warning btn-lg" target="_blank">
-                            Contato
+                        <a href="https://api.whatsapp.com/send?phone=5561991091770" class="btn btn-light btn-lg" target="_blank">
+                            Contact
                             <img src="img/whatsapp.svg " width="24" height="24" >
 
                         </a>
@@ -92,7 +96,126 @@
             </div>
         </section><!--fim pagina inicial-->
 
-        <section id="servicos" class="bg-warning"> <!--inicio servicos-->
+        <section id="anatel" class="bg-light"> <!--inicio Anatel-->
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                        <div id="carouselAnatel" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/tela-inicial.png" class="d-block w-75 img-fluid img-thumbnail rounded"  alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/menu-principal.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..." >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/credencial1.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..."  >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/credencial2.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..." >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/menu-formularios.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..."  >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/formulario.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..." >
+                              </div>
+                            
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnatel" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselAnatel" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        
+                        <h2 class="text-center">Anatel</h2>
+
+                        <h3 class="text-center">The National Telecommunications Agency of Brazil</h3>
+
+                            <p>
+                                  April 2021 - December 2022  
+                            </p>
+
+                            <p>
+                                I started my career with technology as an intern at Anatel, at first I developed scripts in the Ruby language for a Ruby On Rails inspection system called "Fiscaliza" but after a year as an intern I was promoted to leader of mobile development where I developed the Mobile application of the agency's inspection system. The application was developed for android tablets, the application was not published in stores because its use was only for Anatel inspectors and the .APK file was installed internally by the company.   
+                            </p>
+                            
+                            <p>
+                                The application has features such as showing Brazilian government documents, filling out inspection forms and generating PDF`s from the forms.<br/>The mobile application was developed with Flutter Framework Technology and Dart language.
+                            </p>
+                            
+
+                    </div>
+                </div>
+            </div>
+        </section><!--fim Anatel-->
+
+        <section id="observatorio" class="bg-dark"> <!--inicio Observatorio-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/pagina-inicial-observatorio.png" class="d-block w-75 img-fluid img-thumbnail rounded"  alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/api-um.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..." >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/api-dois.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..."  >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/api-tres.png" class="d-block w-75 img-fluid img-thumbnail rounded" alt="..." >
+                              </div>
+                            
+                            
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-6 text-light">
+                        
+                        <h2 class="text-center">Observatory of Brazilian Agriculture</h2>
+
+                        
+
+                            <p>
+                                October 2022 - January 2023 
+                            </p>
+
+                            <p>
+                                In October 2022 I was invited by a university professor to develop an API for the Ministry of Agriculture in Brazil, the API should provide partner registration and queries to the Observatory database, the project was developed with Java technology with the SpringBoot framework.
+                            </p>
+                            
+                            
+                            
+
+                    </div>
+                </div>
+            </div>
+        </section><!--fim Observatorio-->
+
+        <section id="servicos" class="bg-light"> <!--inicio servicos-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -116,38 +239,18 @@
 
                     <div class="col-md-6">
                         
-                        <h2>Alpha & Omega</h2>
+                        <h2>Alexander Brandão</h2>
 
-                        <h3>Alexander Brandão</h3>
+                        <p>
+                            Hello, My name is Alexander. I am a computer engineer graduated from the University Center of Brasilia (Uniceub). Since 2021 I develop software professionally, let's work together? contact!
+                        </p>
 
-                            <p>
-                                Olá! Eu sou Alexander Brandão e este é o Alpha e Ômega.
-                            </p>
-                            <p>
-                                Neste recanto virtual pretendo apresentar um pouco do meu perfil profissional – enquanto Engenheiro de Software.
-                            </p>
-                                
-                            <p>
-                                A proposta é trazer um olhar que expresse os meus interesses nesse segmento, sobretudo no que se refere à aplicação de conhecimento tecnológico voltado para o efetivo desenvolvimento, gerenciamento e arquitetura de softwares em geral.
-                            </p>
-                                
-                            <p>
-                                Por se tratar de ume espaço tão pessoal, trouxe na expressão Alpha e Ômega a minha filosofia de trabalho. Ambos os termos possuem, em sua essência, uma referência ao início [Alpha] e ao fim [Omega] das coisas.    
-                            </p>
-                                
-                            <p>
-                                 É sob essa premissa que eu guio a execução das minhas tarefas cotidianas, exigindo, das minhas ações, um devido desfecho. Acredito que este modus operandi eleve a minha qualidade profissional, traga excelência ao produto final, garanta a satisfação do cliente, além de promover a paz de espírito e o senso ético de dever cumprido.
-                             </p>
+                        <p class="text-center">Our Father,<br/> which art in heaven,<br/> Hallowed be thy Name.<br/> Thy Kingdom come. <br/>Thy will be done in earth,<br/> As it is in heaven. <br/>Give us this day our daily bread.<br/> And forgive us our trespasses,<br/> As we forgive them that trespass against us.<br/> And lead us not into temptation,<br/> But deliver us from evil.<br/> For thine is the kingdom,<br/> The power, and the glory,<br/> For ever and ever.<br/> Amen.
 
-                        <h3>Experiência</h3>
+                            </p>
 
-                            <p>
-                                Atualmente, presto serviços de manutenção de software para a ANATEL
-                                (Agência Nacional de Telecomunicações), desenvolvendo scripts em Ruby On Rails [estrutura baseada na linguagem Ruby, que permite a construção de aplicações web], além de exercer demais atribuições administrativas.
-                            </p>
-                            <p>
-                                Esteja à vontade para entrar em contato. Juntos poderemos desenvolver produtos especiais e cativantes, capazes de melhorar a vida dos usuários.
-                            </p>
+                            
+                             
                             
 
                     </div>
@@ -155,25 +258,27 @@
             </div>
         </section><!--fim servicos-->
 
+
+
         <footer><!--inicio rodape-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 albuns">
-                        <img src="img/logoNav.svg" width="80" class="bg-warning logo ">
+                        <img src="img/logoNav.svg" width="80" class="bg-light logo ">
                     </div>
                     <div class="col-md-10">
                         <ul>
-                            <li class=" bg-warning logo">
+                            <li class=" bg-light logo">
                                 <a href="https://github.com/alexander-brandao" target="_blank">
                                    <img src="img/github.svg" width="40"> 
                                 </a>
                             </li>
-                            <li class=" bg-warning logo">
+                            <li class=" bg-light logo">
                                 <a href="https://api.whatsapp.com/send?phone=5561991091770" target="_blank">
                                    <img src="img/whatsapp.svg" width="40"> 
                                 </a>
                             </li>
-                            <li class=" bg-warning logo">
+                            <li class=" bg-light logo">
                                 <a href="https://www.linkedin.com/in/alexander-costa-brandao-553761127/" target="_blank"> 
                                    <img src="img/linkedin.svg" width="40"> 
                                 </a>
@@ -187,12 +292,6 @@
         
 
 
-
-        <!-- JavaScript (Opcional) -->
-        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
 </html>

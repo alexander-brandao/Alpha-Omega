@@ -21,9 +21,11 @@ footer ul li{
 h2 {
     font-size: 3em;
 }
+
 p {
     font-size: 20px;
 }
+
 
 .capa {
     text-align: center;
@@ -31,6 +33,17 @@ p {
 .logo {
     border-radius: 20px;
     padding: 10px;
+}
+
+#anatel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#observatorio{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #servicos {
@@ -41,6 +54,7 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
 h1 {
     font-weight: 700;
